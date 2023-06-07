@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_margin="16sp"
         android:text="@string/dados_para_envio"
         android:textSize="35sp"/>
 
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_margin="8sp"
         android:hint="@string/para"
         android:inputType="phone" />
 
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/mensagem"
+        android:layout_margin="8sp"
         android:gravity="start|top"
         android:lines="4"
         android:inputType="textMultiLine" />
@@ -38,6 +41,7 @@
         android:id="@+id/btnSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8sp"
         android:text="@string/enviar"/>
 
 </LinearLayout>
